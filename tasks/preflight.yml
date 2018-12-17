@@ -1,0 +1,15 @@
+---
+- name: Naive assertion of proper DNS port number
+  assert:
+    that:
+      - "coredns_dns_port <= 65535"
+
+- name: Fail on unsupported init systems
+  fail:
+    msg: "This module only works with systemd"
+  when: ansible_service_mgr != 'systemd'
+
+- name: "Get checksum for {{ go_arch }} architecture"
+  set_fact:
+    coredns_checksum: "{{ lookup('url', 'https://github.com/coredns/coredns/releases/download/v' + coredns_version + '/coredns_' + coredns_version + '_linux_' + go_arch + '.tgz.sha256') }}"
+  run_once: true

@@ -1,0 +1,28 @@
+{{ ansible_managed | comment }}
+
+[Unit]
+Description=CoreDNS
+Documentation=https://coredns.io
+After=network.target
+
+[Service]
+Type=simple
+PermissionsStartOnly=true
+LimitNOFILE=1048576
+LimitNPROC=512
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+NoNewPrivileges=true
+
+User={{ coredns_system_user }}
+Group={{ coredns_system_group }}
+ExecStart=/usr/local/bin/coredns \
+    -conf {{ coredns_config_file }}
+    -dns.port "{{ coredns_dns_port }}"
+
+SyslogIdentifier=coredns
+ExecReload=/bin/kill -SIGUSR1 $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
