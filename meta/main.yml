@@ -13,7 +13,6 @@ galaxy_info:
         - xenial
     - name: Debian
       versions:
-        - jessie
         - stretch
     - name: EL
       versions:
