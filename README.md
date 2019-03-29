@@ -1,6 +1,6 @@
 # Ansible Role: CoreDNS
 
-[![Build Status](https://travis-ci.org/cloudalchemy/ansible-coredns.svg?branch=master)](https://travis-ci.org/cloudalchemy/ansible-coredns)
+[![Build Status](https://travis-ci.com/cloudalchemy/ansible-coredns.svg?branch=master)](https://travis-ci.com/cloudalchemy/ansible-coredns)
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Ansible Role](https://img.shields.io/badge/ansible%20role-cloudalchemy.coredns-blue.svg)](https://galaxy.ansible.com/cloudalchemy/coredns/)
 [![GitHub tag](https://img.shields.io/github/tag/cloudalchemy/ansible-coredns.svg)](https://github.com/cloudalchemy/ansible-coredns/tags)
@@ -20,9 +20,9 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 
 | Name                         | Default Value  | Description                        |
 | ---------------------------- | -------------- | -----------------------------------|
-| `coredns_version`            | 1.3.0          | CoreDNS package version |
+| `coredns_version`            | 1.4.0          | CoreDNS package version |
 | `coredns_dns_port`           | 53             | Port on which CoreDNS will listen for DNS requests |
-| `coredns_config`             |                | The configuration of the [Corefile](https://coredns.io/manual/toc/#configuration) |
+| `coredns_config_file`        |                | This should contain path to file with coredns configuration [Corefile](https://coredns.io/manual/toc/#configuration) |
 
 ## Example
 

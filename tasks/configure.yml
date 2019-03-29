@@ -1,0 +1,9 @@
+---
+- name: Copy configuration file
+  template:
+    src: "{{ coredns_config_file }}"
+    dest: /etc/coredns/Corefile
+    owner: root
+    group: root
+    mode: 0644
+  notify: restart coredns

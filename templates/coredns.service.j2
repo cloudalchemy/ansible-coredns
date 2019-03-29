@@ -17,7 +17,7 @@ NoNewPrivileges=true
 User={{ coredns_system_user }}
 Group={{ coredns_system_group }}
 ExecStart=/usr/local/bin/coredns \
-    -conf {{ coredns_config_file }}
+    -conf /etc/coredns/Corefile \
     -dns.port "{{ coredns_dns_port }}"
 
 SyslogIdentifier=coredns

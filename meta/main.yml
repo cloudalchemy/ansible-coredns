@@ -1,0 +1,28 @@
+---
+galaxy_info:
+  author: Pawel Krupa, Ben Kochie
+  description: CoreDNS installation
+  license: MIT
+  role_name: coredns
+  company: none
+  min_ansible_version: 2.5
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - xenial
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: EL
+      versions:
+        - 7
+    - name: Fedora
+      versions:
+        - 27
+  galaxy_tags:
+    - dns
+    - system
+
+dependencies: []

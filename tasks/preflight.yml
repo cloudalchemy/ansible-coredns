@@ -4,12 +4,17 @@
     that:
       - "coredns_dns_port <= 65535"
 
-- name: Fail on unsupported init systems
-  fail:
+- name: Assert usage of systemd as an init system
+  assert:
+    that: ansible_service_mgr == 'systemd'
     msg: "This module only works with systemd"
-  when: ansible_service_mgr != 'systemd'
+
+- name: Check if source Corefile is set
+  assert:
+    that: coredns_config_file != ""
+    msg: "variable coredns_config_file cannot be empty"
 
 - name: "Get checksum for {{ go_arch }} architecture"
   set_fact:
-    coredns_checksum: "{{ lookup('url', 'https://github.com/coredns/coredns/releases/download/v' + coredns_version + '/coredns_' + coredns_version + '_linux_' + go_arch + '.tgz.sha256') }}"
+    coredns_checksum: "{{ lookup('url', 'https://github.com/coredns/coredns/releases/download/v' + coredns_version + '/coredns_' + coredns_version + '_linux_' + go_arch + '.tgz.sha256').split(' ')[0] }}"
   run_once: true
