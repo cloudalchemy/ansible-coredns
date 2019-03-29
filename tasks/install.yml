@@ -45,12 +45,6 @@
   delegate_to: localhost
   check_mode: false
 
-- name: Create /usr/local/bin
-  file:
-    path: /usr/local/bin
-    state: directory
-    mode: 0755
-
 - name: Propagate coredns binaries
   copy:
     src: "/tmp/coredns"
