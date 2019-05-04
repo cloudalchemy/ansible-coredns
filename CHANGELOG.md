@@ -5,6 +5,7 @@
 **Merged pull requests:**
 
 - Synchronize files from cloudalchemy/skeleton [\#5](https://github.com/cloudalchemy/ansible-coredns/pull/5) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- Wait for network to be online [\#4](https://github.com/cloudalchemy/ansible-coredns/pull/4) ([paulfantom](https://github.com/paulfantom))
 
 ## [0.0.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-03-29)
 **Merged pull requests:**
