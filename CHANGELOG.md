@@ -2,8 +2,13 @@
 
 ## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
 
+**Closed issues:**
+
+- role requires gtar on host [\#7](https://github.com/cloudalchemy/ansible-coredns/issues/7)
+
 **Merged pull requests:**
 
+- Update default CoreDNS version to 1.5.0 [\#8](https://github.com/cloudalchemy/ansible-coredns/pull/8) ([bostrt](https://github.com/bostrt))
 - Synchronize files from cloudalchemy/skeleton [\#5](https://github.com/cloudalchemy/ansible-coredns/pull/5) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - Wait for network to be online [\#4](https://github.com/cloudalchemy/ansible-coredns/pull/4) ([paulfantom](https://github.com/paulfantom))
 
