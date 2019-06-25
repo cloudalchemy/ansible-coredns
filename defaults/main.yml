@@ -1,5 +1,5 @@
 ---
-coredns_version: 1.4.0
+coredns_version: 1.5.0
 coredns_dns_port: 53
 
 # Config file name, searched in ansible templates path.
