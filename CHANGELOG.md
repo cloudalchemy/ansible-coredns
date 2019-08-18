@@ -8,6 +8,7 @@
 
 **Merged pull requests:**
 
+- Synchronize files from cloudalchemy/skeleton [\#9](https://github.com/cloudalchemy/ansible-coredns/pull/9) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - Update default CoreDNS version to 1.5.0 [\#8](https://github.com/cloudalchemy/ansible-coredns/pull/8) ([bostrt](https://github.com/bostrt))
 - Synchronize files from cloudalchemy/skeleton [\#5](https://github.com/cloudalchemy/ansible-coredns/pull/5) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - Wait for network to be online [\#4](https://github.com/cloudalchemy/ansible-coredns/pull/4) ([paulfantom](https://github.com/paulfantom))
