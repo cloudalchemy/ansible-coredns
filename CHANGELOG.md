@@ -8,6 +8,7 @@
 
 **Merged pull requests:**
 
+- Update minimum required ansible version [\#13](https://github.com/cloudalchemy/ansible-coredns/pull/13) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - Moving to python 3 and dropping support for python 2.x \(on deployer host\) [\#12](https://github.com/cloudalchemy/ansible-coredns/pull/12) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - added restartsec and startlimitinterval configurations [\#10](https://github.com/cloudalchemy/ansible-coredns/pull/10) ([oguzhaninan](https://github.com/oguzhaninan))
 - Synchronize files from cloudalchemy/skeleton [\#9](https://github.com/cloudalchemy/ansible-coredns/pull/9) ([cloudalchemybot](https://github.com/cloudalchemybot))
