@@ -4,6 +4,7 @@
 Description=CoreDNS
 Documentation=https://coredns.io
 After=network-online.target
+StartLimitInterval=0
 
 [Service]
 Type=simple
@@ -23,6 +24,7 @@ ExecStart=/usr/local/bin/coredns \
 SyslogIdentifier=coredns
 ExecReload=/bin/kill -SIGUSR1 $MAINPID
 Restart=always
+RestartSec=0
 
 [Install]
 WantedBy=multi-user.target
