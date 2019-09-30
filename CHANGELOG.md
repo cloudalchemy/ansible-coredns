@@ -8,6 +8,7 @@
 
 **Merged pull requests:**
 
+- New coredns/coredns upstream release! [\#19](https://github.com/cloudalchemy/ansible-coredns/pull/19) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - New coredns/coredns upstream release! [\#17](https://github.com/cloudalchemy/ansible-coredns/pull/17) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - Synchronize files from cloudalchemy/skeleton [\#16](https://github.com/cloudalchemy/ansible-coredns/pull/16) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - New coredns/coredns upstream release! [\#14](https://github.com/cloudalchemy/ansible-coredns/pull/14) ([cloudalchemybot](https://github.com/cloudalchemybot))
