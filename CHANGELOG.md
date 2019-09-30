@@ -1,10 +1,9 @@
 # Change Log
 
-## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
-
-
+## [0.1.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-09-30)
 **Closed issues:**
 
+- Can haz release? [\#18](https://github.com/cloudalchemy/ansible-coredns/issues/18)
 - role requires gtar on host [\#7](https://github.com/cloudalchemy/ansible-coredns/issues/7)
 
 **Merged pull requests:**
