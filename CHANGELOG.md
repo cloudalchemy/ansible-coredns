@@ -2,6 +2,7 @@
 
 ## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
 
+
 **Closed issues:**
 
 - role requires gtar on host [\#7](https://github.com/cloudalchemy/ansible-coredns/issues/7)
