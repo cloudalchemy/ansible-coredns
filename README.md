@@ -20,7 +20,7 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 
 | Name                         | Default Value  | Description                        |
 | ---------------------------- | -------------- | -----------------------------------|
-| `coredns_version` | 1.6.4          | CoreDNS package version |
+| `coredns_version` | 1.6.5          | CoreDNS package version |
 | `coredns_dns_port`           | 53             | Port on which CoreDNS will listen for DNS requests |
 | `coredns_config_file`        |                | This should contain path to file with coredns configuration [Corefile](https://coredns.io/manual/toc/#configuration) |
 
