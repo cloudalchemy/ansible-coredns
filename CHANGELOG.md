@@ -4,6 +4,8 @@
 
 **Merged pull requests:**
 
+- New coredns/coredns upstream release! [\#22](https://github.com/cloudalchemy/ansible-coredns/pull/22) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- \[REPO SYNC\] Update releaser.sh [\#21](https://github.com/cloudalchemy/ansible-coredns/pull/21) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] add support for CentOS8 [\#20](https://github.com/cloudalchemy/ansible-coredns/pull/20) ([cloudalchemybot](https://github.com/cloudalchemybot))
 
 ## [0.1.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-09-30)
