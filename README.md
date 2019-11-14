@@ -12,7 +12,7 @@ Deploy [CoreDNS](https://github.com/coredns/coredns) using ansible.
 
 ## Requirements
 
-- Ansible >= 2.6 (It might work on previous versions, but we cannot guarantee it)
+- Ansible >= 2.7 (It might work on previous versions, but we cannot guarantee it)
 
 ## Role Variables
 
