@@ -26,5 +26,24 @@ ExecReload=/bin/kill -SIGUSR1 $MAINPID
 Restart=always
 RestartSec=0
 
+CapabilityBoundingSet=CAP_SET_UID
+LockPersonality=true
+NoNewPrivileges=true
+MemoryDenyWriteExecute=true
+PrivateTmp=true
+ProtectHome=true
+RemoveIPC=true
+RestrictSUIDSGID=true
+
+{% if coredns_systemd_version | int >= 232 %}
+PrivateUsers=true
+ProtectControlGroups=true
+ProtectKernelModules=true
+ProtectKernelTunables=yes
+ProtectSystem=strict
+{% else %}
+ProtectSystem=full
+{% endif %}
+
 [Install]
 WantedBy=multi-user.target
