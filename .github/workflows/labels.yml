@@ -1,3 +1,4 @@
+---
 name: Sync labels in the declarative way
 on: [push]
 jobs:
