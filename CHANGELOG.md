@@ -4,6 +4,7 @@
 
 **Merged pull requests:**
 
+- \[REPO SYNC\] molecule: use CI images from quay.io instead of dockerhub [\#23](https://github.com/cloudalchemy/ansible-coredns/pull/23) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - New coredns/coredns upstream release! [\#22](https://github.com/cloudalchemy/ansible-coredns/pull/22) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] Update releaser.sh [\#21](https://github.com/cloudalchemy/ansible-coredns/pull/21) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] add support for CentOS8 [\#20](https://github.com/cloudalchemy/ansible-coredns/pull/20) ([cloudalchemybot](https://github.com/cloudalchemybot))
