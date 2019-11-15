@@ -4,20 +4,12 @@ pull_request_rules:
     conditions:
       - "status-success=Travis CI - Pull Request"
       - status-success=WIP
-      - head=autoupdate
+      - head~=autoupdate|skeleton
       - author=cloudalchemybot
     actions:
       merge:
         method: squash
-  - name: automatic merge repository sync from cloudalchemybot
-    conditions:
-      - "status-success=Travis CI - Pull Request"
-      - status-success=WIP
-      - head=skeleton
-      - author=cloudalchemybot
-    actions:
-      merge:
-        method: squash
+        strict: true
   - name: delete head branch after merge
     conditions: []
     actions:
