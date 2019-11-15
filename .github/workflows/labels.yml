@@ -1,6 +1,9 @@
 ---
 name: Sync labels in the declarative way
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
