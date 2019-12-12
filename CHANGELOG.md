@@ -1,9 +1,9 @@
 # Change Log
 
-## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
-
+## [0.1.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-12-12)
 **Merged pull requests:**
 
+- New coredns/coredns upstream release! [\#27](https://github.com/cloudalchemy/ansible-coredns/pull/27) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] .github/workflows: less frequent label sync [\#26](https://github.com/cloudalchemy/ansible-coredns/pull/26) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] add declarative label sync; add autolabelling PRs [\#25](https://github.com/cloudalchemy/ansible-coredns/pull/25) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] molecule: use CI images from quay.io instead of dockerhub [\#23](https://github.com/cloudalchemy/ansible-coredns/pull/23) ([cloudalchemybot](https://github.com/cloudalchemybot))
