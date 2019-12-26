@@ -1,5 +1,11 @@
 # Change Log
 
+## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
+
+**Merged pull requests:**
+
+- \[REPO SYNC\] remove IRC link [\#28](https://github.com/cloudalchemy/ansible-coredns/pull/28) ([cloudalchemybot](https://github.com/cloudalchemybot))
+
 ## [0.1.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-12-12)
 **Merged pull requests:**
 
