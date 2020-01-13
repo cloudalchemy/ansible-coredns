@@ -4,6 +4,7 @@
 
 **Merged pull requests:**
 
+- \[REPO SYNC\] Merge pull request \#4 from cloudalchemy/travis\_fix [\#31](https://github.com/cloudalchemy/ansible-coredns/pull/31) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] use latest available python [\#30](https://github.com/cloudalchemy/ansible-coredns/pull/30) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] remove IRC link [\#28](https://github.com/cloudalchemy/ansible-coredns/pull/28) ([cloudalchemybot](https://github.com/cloudalchemybot))
 
