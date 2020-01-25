@@ -7,3 +7,13 @@
     group: root
     mode: 0644
   notify: restart coredns
+
+- name: Copy zone files
+  template:
+    src: "{{ item }}"
+    dest: /etc/coredns/zones
+    owner: root
+    group: root
+    mode: 0644
+  with_fileglob:
+    - coredns/zones/*
