@@ -15,13 +15,16 @@
     createhome: false
     home: /
 
-- name: create coredns configuration directory
+- name: create coredns configuration directories
   file:
-    path: "/etc/coredns"
+    path: "{{ item }}"
     state: directory
     owner: root
     group: root
     mode: 0755
+  with_items:
+    - /etc/coredns
+    - /etc/coredns/zones
 
 - name: Download coredns binary to local folder
   become: false
