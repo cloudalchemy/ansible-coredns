@@ -1,10 +1,10 @@
 # Change Log
 
-## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
-
+## [0.3.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
 **Merged pull requests:**
 
 - \[REPO SYNC\] Merge pull request \#4 from cloudalchemy/travis\_fix [\#35](https://github.com/cloudalchemy/ansible-coredns/pull/35) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- Add support for local binary [\#34](https://github.com/cloudalchemy/ansible-coredns/pull/34) ([SuperQ](https://github.com/SuperQ))
 
 ## [0.2.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
 **Merged pull requests:**
