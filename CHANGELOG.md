@@ -1,5 +1,11 @@
 # Change Log
 
+## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
+
+**Merged pull requests:**
+
+- \[REPO SYNC\] Merge pull request \#4 from cloudalchemy/travis\_fix [\#35](https://github.com/cloudalchemy/ansible-coredns/pull/35) ([cloudalchemybot](https://github.com/cloudalchemybot))
+
 ## [0.2.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
 **Merged pull requests:**
 
