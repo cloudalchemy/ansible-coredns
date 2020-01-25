@@ -26,37 +26,49 @@
     - /etc/coredns
     - /etc/coredns/zones
 
-- name: Download coredns binary to local folder
-  become: false
-  get_url:
-    url: "https://github.com/coredns/coredns/releases/download/v{{ coredns_version }}/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
-    dest: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
-    checksum: "sha256:{{ coredns_checksum }}"
-  register: _download_binary
-  until: _download_binary is succeeded
-  retries: 5
-  delay: 2
-  delegate_to: localhost
-  check_mode: false
+- block:
+    - name: Download coredns binary to local folder
+      become: false
+      get_url:
+        url: "https://github.com/coredns/coredns/releases/download/v{{ coredns_version }}/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
+        dest: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
+        checksum: "sha256:{{ coredns_checksum }}"
+      register: _download_binary
+      until: _download_binary is succeeded
+      retries: 5
+      delay: 2
+      delegate_to: localhost
+      check_mode: false
 
-- name: Unpack coredns binary
-  become: false
-  unarchive:
-    src: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
-    dest: "/tmp"
-    creates: "/tmp/coredns"
-  delegate_to: localhost
-  check_mode: false
+    - name: Unpack coredns binary
+      become: false
+      unarchive:
+        src: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
+        dest: "/tmp"
+        creates: "/tmp/coredns"
+      delegate_to: localhost
+      check_mode: false
 
-- name: Propagate coredns binaries
+    - name: Propagate coredns binaries
+      copy:
+        src: "/tmp/coredns"
+        dest: "/usr/local/bin/coredns"
+        mode: 0750
+        owner: "{{ coredns_system_user }}"
+        group: "{{ coredns_system_group }}"
+      notify: restart coredns
+      when: not ansible_check_mode
+  when: coredns_binary_local_dir | length == 0
+
+- name: propagate locally distributed coredns binary
   copy:
-    src: "/tmp/coredns"
+    src: "{{ coredns_binary_local_dir }}/coredns"
     dest: "/usr/local/bin/coredns"
     mode: 0750
     owner: "{{ coredns_system_user }}"
     group: "{{ coredns_system_group }}"
+  when: coredns_binary_local_dir | length > 0
   notify: restart coredns
-  when: not ansible_check_mode
 
 - name: Copy the coredns systemd service file
   template:
