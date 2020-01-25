@@ -1,9 +1,9 @@
 # Change Log
 
-## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
-
+## [0.2.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
 **Merged pull requests:**
 
+- Add support for deploying Zone files. [\#32](https://github.com/cloudalchemy/ansible-coredns/pull/32) ([SuperQ](https://github.com/SuperQ))
 - \[REPO SYNC\] Merge pull request \#4 from cloudalchemy/travis\_fix [\#31](https://github.com/cloudalchemy/ansible-coredns/pull/31) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] use latest available python [\#30](https://github.com/cloudalchemy/ansible-coredns/pull/30) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] remove IRC link [\#28](https://github.com/cloudalchemy/ansible-coredns/pull/28) ([cloudalchemybot](https://github.com/cloudalchemybot))
