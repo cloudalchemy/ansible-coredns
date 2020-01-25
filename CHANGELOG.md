@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.2.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
+**Merged pull requests:**
+
+- Set a WorkingDirectory [\#33](https://github.com/cloudalchemy/ansible-coredns/pull/33) ([SuperQ](https://github.com/SuperQ))
+
 ## [0.2.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
 **Merged pull requests:**
 
