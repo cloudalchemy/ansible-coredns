@@ -1,0 +1,28 @@
+---
+- name: Prepare
+  hosts: all
+  gather_facts: false
+  vars:
+    go_arch: amd64
+    coredns_version: 1.6.6
+  tasks:
+    - name: Download coredns binary to local folder
+      become: false
+      get_url:
+        url: "https://github.com/coredns/coredns/releases/download/v{{ coredns_version }}/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
+        dest: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
+      register: _download_binary
+      until: _download_binary is succeeded
+      retries: 5
+      delay: 2
+      run_once: true
+      check_mode: false
+
+    - name: Unpack coredns binary
+      become: false
+      unarchive:
+        src: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
+        dest: "/tmp"
+        creates: "/tmp/coredns"
+      run_once: true
+      check_mode: false

@@ -4,3 +4,6 @@ coredns_dns_port: 53
 
 # Config file name, searched in ansible templates path.
 coredns_config_file: ""
+
+# Use a local binary instead of the official release.
+coredns_binary_local_dir: ""
