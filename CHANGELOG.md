@@ -1,5 +1,11 @@
 # Change Log
 
+## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
+
+**Merged pull requests:**
+
+- \[REPO SYNC\] lock molecule to v2 [\#38](https://github.com/cloudalchemy/ansible-coredns/pull/38) ([cloudalchemybot](https://github.com/cloudalchemybot))
+
 ## [0.3.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-29)
 **Merged pull requests:**
 
