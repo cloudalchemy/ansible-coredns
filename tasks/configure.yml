@@ -16,4 +16,4 @@
     group: root
     mode: 0644
   with_fileglob:
-    - coredns/zones/*
+    - "{{ coredns_zone_files_path }}/*"

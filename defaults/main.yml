@@ -7,3 +7,5 @@ coredns_config_file: ""
 
 # Use a local binary instead of the official release.
 coredns_binary_local_dir: ""
+
+coredns_zone_files_path: "coredns/zones"
