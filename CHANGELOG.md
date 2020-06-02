@@ -1,5 +1,11 @@
 # Change Log
 
+## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
+
+**Merged pull requests:**
+
+- \[REPO SYNC\] Add passlib as a test requirement [\#41](https://github.com/cloudalchemy/ansible-coredns/pull/41) ([cloudalchemybot](https://github.com/cloudalchemybot))
+
 ## [0.3.2](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-03-24)
 **Merged pull requests:**
 
