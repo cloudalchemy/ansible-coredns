@@ -23,7 +23,7 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 | `coredns_binary_local_dir` | "" | Allows to use local packages instead of ones distributed on github. As parameter it takes a directory where `coredns` binary is stored on host on which ansible is ran. This overrides `coredns_version` parameter |
 | `coredns_dns_port`           | 53             | Port on which CoreDNS will listen for DNS requests |
 | `coredns_config_file`        |                | This should contain path to file with coredns configuration [Corefile](https://coredns.io/manual/toc/#configuration) |
-| `coredns_zone_files_path`        | coredns/zones | This should contain path to zone files without trailing slash
+| `coredns_zone_files_paths`        | ["coredns/zones/*"] | List containing paths to zone files
 
 ## Example
 
