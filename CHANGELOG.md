@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.4.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-06-29)
+**Merged pull requests:**
+
+- Added variable to make the path of zone files configureable [\#40](https://github.com/cloudalchemy/ansible-coredns/pull/40) ([em0lar](https://github.com/em0lar))
+
 ## [0.3.3](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-06-18)
 **Merged pull requests:**
 
