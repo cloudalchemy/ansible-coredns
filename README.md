@@ -38,7 +38,7 @@ Use it in a playbook as follows:
 
 ## Zone files
 
-The role will search in the path defined in `coredns_zone_files_path` in the Ansible templates paths for files to deploy. These can be used with the [`file` plugin](https://coredns.io/plugins/file/).
+The role will search in the paths defined in `coredns_zone_files_paths` in the Ansible templates paths for files to deploy. These can be used with the [`file` plugin](https://coredns.io/plugins/file/).
 
 ## Local Testing
 
