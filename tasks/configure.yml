@@ -15,5 +15,4 @@
     owner: root
     group: root
     mode: 0644
-  with_fileglob:
-    - coredns/zones/*
+  with_fileglob: "{{ coredns_zone_files_paths }}"
