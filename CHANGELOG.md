@@ -1,5 +1,11 @@
 # Change Log
 
+## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
+
+**Merged pull requests:**
+
+- \[REPO SYNC\] add troubleshooting doc skeleton [\#44](https://github.com/cloudalchemy/ansible-coredns/pull/44) ([cloudalchemybot](https://github.com/cloudalchemybot))
+
 ## [0.4.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-06-29)
 **Merged pull requests:**
 
