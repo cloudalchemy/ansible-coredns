@@ -1,9 +1,9 @@
 # Change Log
 
-## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
-
+## [0.4.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-10-07)
 **Merged pull requests:**
 
+- New coredns/coredns upstream release! [\#46](https://github.com/cloudalchemy/ansible-coredns/pull/46) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - \[REPO SYNC\] add troubleshooting doc skeleton [\#44](https://github.com/cloudalchemy/ansible-coredns/pull/44) ([cloudalchemybot](https://github.com/cloudalchemybot))
 
 ## [0.4.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-06-29)
