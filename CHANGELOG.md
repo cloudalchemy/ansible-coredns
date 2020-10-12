@@ -1,5 +1,11 @@
 # Change Log
 
+## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
+
+**Merged pull requests:**
+
+- Checksum download is unnecessary when using local binary [\#45](https://github.com/cloudalchemy/ansible-coredns/pull/45) ([Cornelicorn](https://github.com/Cornelicorn))
+
 ## [0.4.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-10-07)
 **Merged pull requests:**
 
