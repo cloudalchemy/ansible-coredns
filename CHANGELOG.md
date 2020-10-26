@@ -1,9 +1,9 @@
 # Change Log
 
-## [**Next release**](https://galaxy.ansible.com/cloudalchemy/coredns)
-
+## [0.4.2](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-10-26)
 **Merged pull requests:**
 
+- New coredns/coredns upstream release! [\#47](https://github.com/cloudalchemy/ansible-coredns/pull/47) ([cloudalchemybot](https://github.com/cloudalchemybot))
 - Checksum download is unnecessary when using local binary [\#45](https://github.com/cloudalchemy/ansible-coredns/pull/45) ([Cornelicorn](https://github.com/Cornelicorn))
 
 ## [0.4.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-10-07)
