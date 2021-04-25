@@ -1,96 +1,113 @@
 # Change Log
 
-## [0.4.2](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-10-26)
+## [**Next release**](https://galaxy.ansible.com/Pawel Krupa, Ben Kochie/coredns)
+
+## [1.0.0] - 2021-04-25
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#47](https://github.com/cloudalchemy/ansible-coredns/pull/47) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Checksum download is unnecessary when using local binary [\#45](https://github.com/cloudalchemy/ansible-coredns/pull/45) ([Cornelicorn](https://github.com/Cornelicorn))
+- [REPO SYNC] Merge pull request [#9](https://github.com/cloudalchemy/ansible-coredns/issues/9) from cloudalchemy/superq/more_updates ([#51](https://github.com/cloudalchemy/ansible-coredns/issues/51))
+- :tada: automated upstream release update ([#49](https://github.com/cloudalchemy/ansible-coredns/issues/49))
 
-## [0.4.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-10-07)
+
+## [0.4.2] - 2020-10-26
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#46](https://github.com/cloudalchemy/ansible-coredns/pull/46) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] add troubleshooting doc skeleton [\#44](https://github.com/cloudalchemy/ansible-coredns/pull/44) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- Checksum download is unnecessary when using local binary ([#45](https://github.com/cloudalchemy/ansible-coredns/issues/45))
 
-## [0.4.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-06-29)
+
+## [0.4.1] - 2020-10-07
 **Merged pull requests:**
 
-- Added variable to make the path of zone files configureable [\#40](https://github.com/cloudalchemy/ansible-coredns/pull/40) ([em0lar](https://github.com/em0lar))
+- :robot: sync with cloudalchemy/skeleton (SHA: 8557b0ee): Update .ansible-lint ([#44](https://github.com/cloudalchemy/ansible-coredns/issues/44))
 
-## [0.3.3](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-06-18)
+
+## [0.4.0] - 2020-06-29
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#43](https://github.com/cloudalchemy/ansible-coredns/pull/43) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] Add passlib as a test requirement [\#41](https://github.com/cloudalchemy/ansible-coredns/pull/41) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- Added variable to make the path of zone files configureable ([#40](https://github.com/cloudalchemy/ansible-coredns/issues/40))
 
-## [0.3.2](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-03-24)
+
+## [0.3.3] - 2020-06-18
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#39](https://github.com/cloudalchemy/ansible-coredns/pull/39) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] lock molecule to v2 [\#38](https://github.com/cloudalchemy/ansible-coredns/pull/38) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- :robot: sync with cloudalchemy/skeleton (SHA: c4138a34): Add passlib as a test requirement ([#41](https://github.com/cloudalchemy/ansible-coredns/issues/41))
 
-## [0.3.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-29)
+
+## [0.3.2] - 2020-03-24
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#36](https://github.com/cloudalchemy/ansible-coredns/pull/36) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- :robot: sync with cloudalchemy/skeleton (SHA: 40e7ce18): lock molecule to v2 ([#38](https://github.com/cloudalchemy/ansible-coredns/issues/38))
 
-## [0.3.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
+
+## [0.3.1] - 2020-01-29
+
+## [0.3.0] - 2020-01-25
 **Merged pull requests:**
 
-- \[REPO SYNC\] Merge pull request \#4 from cloudalchemy/travis\_fix [\#35](https://github.com/cloudalchemy/ansible-coredns/pull/35) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Add support for local binary [\#34](https://github.com/cloudalchemy/ansible-coredns/pull/34) ([SuperQ](https://github.com/SuperQ))
+- Add support for local binary ([#34](https://github.com/cloudalchemy/ansible-coredns/issues/34))
+- :robot: sync with cloudalchemy/skeleton (SHA: 69fc5be8): Merge pull request [#4](https://github.com/cloudalchemy/ansible-coredns/issues/4) from cloudalchemy/travis_fix ([#35](https://github.com/cloudalchemy/ansible-coredns/issues/35))
 
-## [0.2.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
+
+## [0.2.1] - 2020-01-25
 **Merged pull requests:**
 
-- Set a WorkingDirectory [\#33](https://github.com/cloudalchemy/ansible-coredns/pull/33) ([SuperQ](https://github.com/SuperQ))
+- Set a WorkingDirectory ([#33](https://github.com/cloudalchemy/ansible-coredns/issues/33))
 
-## [0.2.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2020-01-25)
+
+## [0.2.0] - 2020-01-25
 **Merged pull requests:**
 
-- Add support for deploying Zone files. [\#32](https://github.com/cloudalchemy/ansible-coredns/pull/32) ([SuperQ](https://github.com/SuperQ))
-- \[REPO SYNC\] Merge pull request \#4 from cloudalchemy/travis\_fix [\#31](https://github.com/cloudalchemy/ansible-coredns/pull/31) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] use latest available python [\#30](https://github.com/cloudalchemy/ansible-coredns/pull/30) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] remove IRC link [\#28](https://github.com/cloudalchemy/ansible-coredns/pull/28) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- Add support for deploying Zone files. ([#32](https://github.com/cloudalchemy/ansible-coredns/issues/32))
+- :robot: sync with cloudalchemy/skeleton (SHA: 69fc5be8): Merge pull request [#4](https://github.com/cloudalchemy/ansible-coredns/issues/4) from cloudalchemy/travis_fix ([#31](https://github.com/cloudalchemy/ansible-coredns/issues/31))
+- :robot: sync with cloudalchemy/skeleton (SHA: f4521f6a): use latest available python ([#30](https://github.com/cloudalchemy/ansible-coredns/issues/30))
+- :robot: sync with cloudalchemy/skeleton (SHA: bb0f0949): remove IRC link ([#28](https://github.com/cloudalchemy/ansible-coredns/issues/28))
 
-## [0.1.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-12-12)
+
+## [0.1.1] - 2019-12-12
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#27](https://github.com/cloudalchemy/ansible-coredns/pull/27) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] .github/workflows: less frequent label sync [\#26](https://github.com/cloudalchemy/ansible-coredns/pull/26) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] add declarative label sync; add autolabelling PRs [\#25](https://github.com/cloudalchemy/ansible-coredns/pull/25) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] molecule: use CI images from quay.io instead of dockerhub [\#23](https://github.com/cloudalchemy/ansible-coredns/pull/23) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- New coredns/coredns upstream release! [\#22](https://github.com/cloudalchemy/ansible-coredns/pull/22) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] Update releaser.sh [\#21](https://github.com/cloudalchemy/ansible-coredns/pull/21) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- \[REPO SYNC\] add support for CentOS8 [\#20](https://github.com/cloudalchemy/ansible-coredns/pull/20) ([cloudalchemybot](https://github.com/cloudalchemybot))
+- :robot: sync with cloudalchemy/skeleton (SHA: a2752423): .github/workflows: less frequent label sync ([#26](https://github.com/cloudalchemy/ansible-coredns/issues/26))
+- :robot: sync with cloudalchemy/skeleton (SHA: 23bd4ea8): add declarative label sync; add autolabelling PRs ([#25](https://github.com/cloudalchemy/ansible-coredns/issues/25))
+- [REPO SYNC] molecule: use CI images from quay.io instead of docke… ([#23](https://github.com/cloudalchemy/ansible-coredns/issues/23))
+- New coredns/coredns upstream release! ([#22](https://github.com/cloudalchemy/ansible-coredns/issues/22))
+- [REPO SYNC] Update releaser.sh ([#21](https://github.com/cloudalchemy/ansible-coredns/issues/21))
+- Merge pull request [#20](https://github.com/cloudalchemy/ansible-coredns/issues/20) from cloudalchemy/skeleton
 
-## [0.1.0](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-09-30)
-**Closed issues:**
 
-- Can haz release? [\#18](https://github.com/cloudalchemy/ansible-coredns/issues/18)
-- role requires gtar on host [\#7](https://github.com/cloudalchemy/ansible-coredns/issues/7)
-
+## [0.1.0] - 2019-09-30
 **Merged pull requests:**
 
-- New coredns/coredns upstream release! [\#19](https://github.com/cloudalchemy/ansible-coredns/pull/19) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- New coredns/coredns upstream release! [\#17](https://github.com/cloudalchemy/ansible-coredns/pull/17) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Synchronize files from cloudalchemy/skeleton [\#16](https://github.com/cloudalchemy/ansible-coredns/pull/16) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- New coredns/coredns upstream release! [\#14](https://github.com/cloudalchemy/ansible-coredns/pull/14) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Update minimum required ansible version [\#13](https://github.com/cloudalchemy/ansible-coredns/pull/13) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Moving to python 3 and dropping support for python 2.x \(on deployer host\) [\#12](https://github.com/cloudalchemy/ansible-coredns/pull/12) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- added restartsec and startlimitinterval configurations [\#10](https://github.com/cloudalchemy/ansible-coredns/pull/10) ([oguzhaninan](https://github.com/oguzhaninan))
-- Synchronize files from cloudalchemy/skeleton [\#9](https://github.com/cloudalchemy/ansible-coredns/pull/9) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Update default CoreDNS version to 1.5.0 [\#8](https://github.com/cloudalchemy/ansible-coredns/pull/8) ([bostrt](https://github.com/bostrt))
-- Synchronize files from cloudalchemy/skeleton [\#5](https://github.com/cloudalchemy/ansible-coredns/pull/5) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- Wait for network to be online [\#4](https://github.com/cloudalchemy/ansible-coredns/pull/4) ([paulfantom](https://github.com/paulfantom))
+- New coredns/coredns upstream release! ([#19](https://github.com/cloudalchemy/ansible-coredns/issues/19))
+- Merge pull request [#17](https://github.com/cloudalchemy/ansible-coredns/issues/17) from cloudalchemy/autoupdate
+- New coredns/coredns upstream release! ([#14](https://github.com/cloudalchemy/ansible-coredns/issues/14))
+- Synchronize files from cloudalchemy/skeleton ([#16](https://github.com/cloudalchemy/ansible-coredns/issues/16))
+- Update minimum required ansible version ([#13](https://github.com/cloudalchemy/ansible-coredns/issues/13))
+- Moving to python 3 and dropping support for python 2.x (on deploy… ([#12](https://github.com/cloudalchemy/ansible-coredns/issues/12))
+- Merge pull request [#10](https://github.com/cloudalchemy/ansible-coredns/issues/10) from oguzhaninan/patch-1
+- Merge pull request [#9](https://github.com/cloudalchemy/ansible-coredns/issues/9) from cloudalchemy/skeleton
+- Merge pull request [#8](https://github.com/cloudalchemy/ansible-coredns/issues/8) from bostrt/patch-1
+- Wait for network to be online ([#4](https://github.com/cloudalchemy/ansible-coredns/issues/4))
+- Synchronize files from cloudalchemy/skeleton ([#5](https://github.com/cloudalchemy/ansible-coredns/issues/5))
 
-## [0.0.1](https://galaxy.ansible.com/cloudalchemy/coredns) (2019-03-29)
+
+## 0.0.1 - 2019-03-29
 **Merged pull requests:**
 
-- do not modify system paths; test on many platforms [\#3](https://github.com/cloudalchemy/ansible-coredns/pull/3) ([paulfantom](https://github.com/paulfantom))
-- Synchronize files from cloudalchemy/skeleton [\#2](https://github.com/cloudalchemy/ansible-coredns/pull/2) ([cloudalchemybot](https://github.com/cloudalchemybot))
-- WIP: Initial code push [\#1](https://github.com/cloudalchemy/ansible-coredns/pull/1) ([SuperQ](https://github.com/SuperQ))
+- Merge pull request [#3](https://github.com/cloudalchemy/ansible-coredns/issues/3) from cloudalchemy/paulfantom/reduce
+- Merge pull request [#2](https://github.com/cloudalchemy/ansible-coredns/issues/2) from cloudalchemy/skeleton
+- Merge pull request [#1](https://github.com/cloudalchemy/ansible-coredns/issues/1) from cloudalchemy/first-code
 
 
-
-\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
+[Unreleased]: https://github.com/cloudalchemy/ansible-coredns/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/cloudalchemy/ansible-coredns/compare/0.4.2...1.0.0
+[0.4.2]: https://github.com/cloudalchemy/ansible-coredns/compare/0.4.1...0.4.2
+[0.4.1]: https://github.com/cloudalchemy/ansible-coredns/compare/0.4.0...0.4.1
+[0.4.0]: https://github.com/cloudalchemy/ansible-coredns/compare/0.3.3...0.4.0
+[0.3.3]: https://github.com/cloudalchemy/ansible-coredns/compare/0.3.2...0.3.3
+[0.3.2]: https://github.com/cloudalchemy/ansible-coredns/compare/0.3.1...0.3.2
+[0.3.1]: https://github.com/cloudalchemy/ansible-coredns/compare/0.3.0...0.3.1
+[0.3.0]: https://github.com/cloudalchemy/ansible-coredns/compare/0.2.1...0.3.0
+[0.2.1]: https://github.com/cloudalchemy/ansible-coredns/compare/0.2.0...0.2.1
+[0.2.0]: https://github.com/cloudalchemy/ansible-coredns/compare/0.1.1...0.2.0
+[0.1.1]: https://github.com/cloudalchemy/ansible-coredns/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/cloudalchemy/ansible-coredns/compare/0.0.1...0.1.0
