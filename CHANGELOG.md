@@ -2,6 +2,12 @@
 
 ## [**Next release**](https://galaxy.ansible.com/Pawel Krupa, Ben Kochie/coredns)
 
+## [2.0.0] - 2021-05-04
+**Merged pull requests:**
+
+- Merge pull request [#52](https://github.com/cloudalchemy/ansible-coredns/issues/52) from cloudalchemy/autoupdate
+
+
 ## [1.0.0] - 2021-04-25
 **Merged pull requests:**
 
@@ -98,7 +104,8 @@
 - Merge pull request [#1](https://github.com/cloudalchemy/ansible-coredns/issues/1) from cloudalchemy/first-code
 
 
-[Unreleased]: https://github.com/cloudalchemy/ansible-coredns/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/cloudalchemy/ansible-coredns/compare/2.0.0...HEAD
+[2.0.0]: https://github.com/cloudalchemy/ansible-coredns/compare/1.0.0...2.0.0
 [1.0.0]: https://github.com/cloudalchemy/ansible-coredns/compare/0.4.2...1.0.0
 [0.4.2]: https://github.com/cloudalchemy/ansible-coredns/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/cloudalchemy/ansible-coredns/compare/0.4.0...0.4.1
