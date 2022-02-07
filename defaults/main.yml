@@ -10,3 +10,6 @@ coredns_binary_local_dir: ""
 
 coredns_zone_files_paths:
   - "coredns/zones/*"
+
+coredns_key_files_paths:
+  - "coredns/keys/*"

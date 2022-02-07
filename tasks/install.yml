@@ -24,6 +24,7 @@
     mode: 0755
   with_items:
     - /etc/coredns
+    - /etc/coredns/keys
     - /etc/coredns/zones
 
 - block:
