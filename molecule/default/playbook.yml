@@ -2,6 +2,6 @@
 - hosts: all
   any_errors_fatal: true
   roles:
-    - ansible-coredns
+    - cloudalchemy.coredns
   vars:
     coredns_config_file: "Corefile.example.j2"
