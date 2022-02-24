@@ -41,18 +41,27 @@
       delegate_to: localhost
       check_mode: false
 
+    - name: Create unpack dir
+      become: false
+      file:
+        path: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}"
+        state: directory
+        mode: 0755
+      delegate_to: localhost
+      check_mode: false
+
     - name: Unpack coredns binary
       become: false
       unarchive:
         src: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}.tgz"
-        dest: "/tmp"
-        creates: "/tmp/coredns"
+        dest: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}"
+        creates: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}/coredns"
       delegate_to: localhost
       check_mode: false
 
     - name: Propagate coredns binaries
       copy:
-        src: "/tmp/coredns"
+        src: "/tmp/coredns_{{ coredns_version }}_linux_{{ go_arch }}/coredns"
         dest: "/usr/local/bin/coredns"
         mode: 0750
         owner: "{{ coredns_system_user }}"
